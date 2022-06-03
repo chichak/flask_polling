@@ -1,4 +1,4 @@
-# flask_polling
+# Flask_polling system
 This project makes use of flask ajax postgress to build a live polling system.
 
 ## First this is the database schema : 
