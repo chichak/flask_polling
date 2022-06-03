@@ -1,0 +1,23 @@
+Database name : polling_db
+
+user : ichrak
+pass: keybfr
+
+# Use environment variable instead of clear passwords
+export DB_USERNAME="ichrak"
+export DB_PASSWORD="keybfr" 
+
+1- First we install PostgreSQL in our server - we add user and database
+2- We install psycopg2-binary into our virtual environment - to interact with python and postgres
+
+# Create new database :
+## Log in to postgres : sudo -iu postgres psql
+## Create database : CREATE DATABASE name_db;
+## Create user : CREATE USER sammy WITH PASSWORD 'password';
+## Give privileges : GRANT ALL PRIVILEGES ON DATABASE flask_db TO sammy;
+## To see that the database is created : \l
+## To quit : \q 
+
+## Connect to your database : \c polling_db
+## See table : SELECT title, author FROM books;
+## To see all tables in database : \dt
